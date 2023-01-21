@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html {
+    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+    
+}
+    
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+body {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(0, 0%, 0%);
+}
+
+/* #links .container .promo-icon a::before  {
+content:'PROMO';
+font-size: .7rem;
+font-weight: 600;
+width: auto;
+height: auto;
+background-color: black;
+color: hsl(25, 100%, 94%);
+padding: 0.2660989888238425vw 1.0395010395010396vh;
+border-radius: 8px;
+float: right;
+position: relative;
+left: 8px;
+top: -20px;
+} */
+
+.head {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.head img {
+    width: 94px;
+    height: 94px;
+    border-radius: 300px;
+}
+
+.head h2 {
+    font-size: 1.4rem;
+}
+#links {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#links .container {
+  display: inline-flex;flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+#links .container .links {
+    width: 680px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 0%);text-align: center;
+    padding: 12px 2px 2px 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+#links .container .links:hover {
+    transform: scale(1.03);
+    transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+}
+
+#links .container .links h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+   padding-top: 5px;
+    
+}
+
+#links .container .links .logo {
+    float: left;
+}
+
+#links .container .links .logo img {
+    width: 32px;
+    height: 36px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    padding-top: 60px;
+    color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer h2 {
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:425px) {
+    #links .container .links {
+        width: 95vw;
+    }
+
+    #links .container .links h2 {
+        font-size: .8rem;
+        line-height: 1.5;
+        width: 100%;
+    }
+}
